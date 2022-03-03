@@ -56,8 +56,8 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2018, text: 'Central Park Conservancy HS Internship' },
-  { year: 2019, text: 'Central Park Conservancy College Internship' },
-  { year: 2020, text: 'Express Company Store Associate' },
-  { year: 2021, text: 'Little Island Visitor Experience Host' }
+  { year: 2018, text: 'Central Park Conservancy: HS Internship' },
+  { year: 2019, text: 'Central Park Conservancy: College Internship' },
+  { year: 2020, text: 'Express Company: Store Associate' },
+  { year: 2021, text: 'Little Island: Visitor Experience Host' }
 ];

@@ -1,5 +1,7 @@
 import React from 'react';
-import { DiFirebase, DiReact } from 'react-icons/di';
+import { DiReact } from 'react-icons/di';
+import { AiFillGithub } from 'react-icons/ai'
+import { FaCode } from 'react-icons/fa';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -13,22 +15,32 @@ const Technologies = () =>  (
     </SectionText>
     <List>
       <ListItem>
-        <DiReact size="3rem"/>
+        <FaCode size="3rem"/>
         <ListContainer>
-          <ListTitle>Front-End</ListTitle>
+          <ListTitle>Languages</ListTitle>
           <ListParagraph>
             Experience with <br />
-            React.js
+            Java, Python, SQL, JavaScript, HTML/CSS, PHP
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiFirebase size="3rem"/>
+        <DiReact size="3rem"/>
         <ListContainer>
-          <ListTitle>Back-End</ListTitle>
+          <ListTitle>Frameworks</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Node and Databases
+            React, Node, Vue, Vite, MongoDB
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <AiFillGithub size="3rem"/>
+        <ListContainer>
+          <ListTitle>Developer Tools</ListTitle>
+          <ListParagraph>
+            Experience with <br />
+            Git, VS Code, Eclipse, phpMyadmin
           </ListParagraph>
         </ListContainer>
       </ListItem>
