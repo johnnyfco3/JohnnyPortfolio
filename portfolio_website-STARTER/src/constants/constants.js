@@ -22,7 +22,7 @@ export const projects = [
     description: "This is the Eleet Coders club's website that I am expanding. The website will have the functionality for the admin to edit the website's content. The website will also have a platform to help it's members practice for technical interviews.",
     image: '/images/eleet.png',
     tags: ['React', 'Nodejs', 'Express', 'Axios', 'MongoDB'],
-    source: 'https://google.com',
+    source: 'https://eleetcoders.netlify.app/',
     visit: 'https://github.com/BenFSaks/ProdEleetCodersPage/tree/temp-branch',
     id: 2,
   },
